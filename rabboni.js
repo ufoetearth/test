@@ -1,10 +1,3 @@
-const formatMessage = require('format-message');
-const axios = require('axios');
-const jsonpAdapter = require('axios-jsonp');
-
-// const ArgumentType = require('../../extension-support/argument-type');
-const BlockType = require('../../extension-support/block-type');
-const log = require('../../util/log');
 
 class Scratch3SippRabboniBlocks {
     constructor (runtime) {
